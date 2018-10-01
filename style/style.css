@@ -1,0 +1,542 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  
+}
+
+body {
+  height: auto;
+  width: 100%;
+  background-color: #1A2328!important;
+  
+}
+
+/* Home Starts */
+
+.home{
+    background-image: url("C:/Users/V310/Desktop/FinalTemplate/images/old.jpg");
+    height: 745px;
+    object-fit: cover;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.layout{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.77);
+}
+.HomeCol12{
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+    top: 300px;
+}
+.HomeCol12  h1{
+    color:white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3.7em;
+    letter-spacing: 1px;
+    font-weight: 200;
+    cursor: pointer;
+}
+.HomeCol12icon{
+    text-align: center;
+    top: 300px;
+}
+.HomeCol12icon i{
+  font-size: 2.2em;
+  color:#007bff;
+  padding: 13px;
+  border: 1px solid #007bff;
+}
+.HomeCol12icon i:hover{
+    transition: linear 1.5s;
+    transform: scale(1.05);
+}
+
+/* Home Ends */
+
+/* Navbar Starts */
+.fa-user{
+    font-size: 1.2em;
+}
+  
+  .navbar-nav {
+    width: 50% 50%;
+    margin: auto;
+    
+  }
+  .navbar-nav > .nav-item {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    font-weight: 100;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    
+
+  }
+  .navbar-nav .dropdown-menu {
+    width: 200px;
+    height: auto;
+    
+
+  }
+  .navbar-nav .dropdown-toggle::after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: none;
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+  }
+  .navbar-nav .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+/* Navbar Ends */
+
+/* About Us Starts */
+.AboutUs .OurNameCol12 h1{
+    color:white;
+  font-family: 'Dancing Script', cursive;
+  font-size: 3.7em;
+  letter-spacing: 1px;
+  font-weight: 200;
+}
+.AboutUsCol12 h1{
+    font-family: 'Quicksand', sans-serif;
+    color:#007bff;
+
+}
+.AboutUsCol6 h3{
+    color:steelblue;
+}
+.AboutUsCol6 img{
+    width: 100%;
+    height: 435px;
+}
+.AboutUsCol6 ul li{
+    list-style-type: none;
+
+}
+.AboutUsCol6 i{
+    color:steelblue;
+
+}
+
+/* About Us ENds */
+/* Our Services Starts */
+
+#OurServices{
+    width: 100%;
+    height: auto;
+  
+}
+p em{
+    color:deepskyblue;
+    font-size: 1.17em;
+    display: block;
+}
+#OurServices .OurNameCol12 h1{
+      color:white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3.7em;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+#OurServices h1{
+    font-family: 'Quicksand', sans-serif;
+    color:#007bff;
+  
+}
+#OurServices i{
+    font-size: 2.3em;
+    color:black;
+    padding: 13px;
+background: #007bff;
+}
+.OurServicesCol3{
+    border: 1px solid #007bff;
+    height: 340px;
+    padding: 15px;
+    margin-top: 50px;
+}
+/* Our Services ENds */
+/* MenuCard Starts */
+#MenuCard .OurNameCol12 h1{
+    color:white;
+  font-family: 'Dancing Script', cursive;
+  font-size: 3.7em;
+  letter-spacing: 1px;
+  font-weight: 200;
+}
+.MenuCardCol6{
+    height: auto;
+    background: #141B1F;
+    margin: auto;
+    max-width: 47%!important;
+}
+.MenuCardCol6 h4{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
+    
+
+}
+.MenuCardCol12 h1{
+    font-family: 'Quicksand', sans-serif;
+    color:#007bff;
+
+}
+
+.MenuCol12 h5{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.1em;
+
+}
+.MenuCol12 span{
+    font-size: 0.9em;
+    color:#007bff;
+}
+.MenuCol12 p{
+    font-size: 1em;
+    color:#007bff;
+    font-family: 'Quicksand', sans-serif;
+
+}
+.btn-primary{
+    text-align: center !important;
+}
+.menuimg{
+    border: 1px solid white ;
+    border-radius: 5px;
+    background-size: cover;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    display: block !important;
+    /* margin: auto; */
+
+}
+.MenuCol12 hr {
+    border: none; /* Убираем границу для браузера Firefox */
+    color: white; /* Цвет линии для остальных браузеров */
+    background-color: white; /* Цвет линии для браузера Firefox и Opera */
+    height: 1px; /* Толщина линии */
+    
+   }
+.menubutton{
+    margin: auto;
+    /* display: block !important; */
+    margin-top: -20px;
+    /* margin-left: 45px; */
+    float: right;
+}
+/* MenuCard Ends */
+/* Gallery STarts */
+#Gallery .OurNameCol12 h1{
+    color:white;
+  font-family: 'Dancing Script', cursive;
+  font-size: 3.7em;
+  letter-spacing: 1px;
+  font-weight: 200;
+}
+#Gallery h1{
+    font-family: 'Quicksand', sans-serif;
+    color:#007bff;
+
+}
+.mainSlider{
+    height: 450px;
+    border: 5px solid   rgba(78, 94, 139, 0.425);
+    padding: 10px;
+    border-radius: 10px;
+}
+.mainSlider img{
+    width: 100%;
+    height: 100%;
+object-fit: cover;
+position: relative;
+}
+.mainSlider i{
+    position: absolute;
+    font-size: 2.3em;
+    top: 50%;
+    color: steelblue;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.2s linear;
+
+}
+.mainSlider i:hover{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.mainSlider i.fa-chevron-right{
+    right: 4%;
+}
+.mainSlider i.fa-chevron-left{
+    left: 4%;
+}
+.imageWrapper{
+    height: 200px;
+    padding: 10px;
+    /* border: 1px solid rgba(78, 94, 139, 0.425); */
+    /* border: 1px solid #D2D2D2; */
+    border: 5px solid   rgba(78, 94, 139, 0.425);
+
+    border-radius: 10px;
+    margin-top: 20px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.lenta{
+    width: 1400px;
+}
+.imageWrapper img{
+    height: 165px;
+    /* width: calc((100% - 22px) / 6); */
+    width: 170px;
+    object-fit: cover;
+   margin-right: 1px;
+   opacity: 0.3;
+   transition: all 0.3s linear;
+   cursor: pointer;
+}
+.imageWrapper img:hover{
+    opacity: 1;
+}
+.imageWrapper img.active{
+    opacity: 1;
+}
+.imageWrapper::-webkit-scrollbar-track
+{
+	
+	background-color: #F5F5F5;
+	border-radius: 10px;
+}
+
+.imageWrapper::-webkit-scrollbar
+{
+	height: 10px;
+	background-color: #F5F5F5;
+}
+
+.imageWrapper::-webkit-scrollbar-thumb
+{
+	border-radius: 0px;
+	background-image: -webkit-gradient(linear,
+									   left bottom,
+									   left top,
+									   color-stop(0.44, rgb(122,153,217)),
+									   color-stop(0.72, rgb(73,125,189)),
+									   color-stop(0.86, rgb(28,58,148)));
+}
+
+/* Gallery ENds */
+/* Footer Starts */
+.footer{
+    background: #007bff;
+    margin-top: 150px;
+    
+}
+.contactCol12 h1{
+    font-family: 'Quicksand', sans-serif;
+
+}
+.contactCol6 h5{
+    color: white;
+    font-family: 'Mukta', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+
+}
+.contactCol6 p{
+    font-size: 1em;
+}
+.contactCol6 i{
+    font-size: 2em;
+}
+.contactCol12 i{
+    font-size: 2.2em;
+}
+/* Footer ends */
+/* Responsive starts */
+@media screen and (max-width: 575.98px) {
+    .home {
+        height: 543px;
+        object-fit: scale-down;
+      }
+    
+    .HomeCol12icon{
+     display: none;
+    }
+    .AboutUsCol6 img{
+        width: 100%;
+        height: 250px;
+    }
+    .AboutUsCol6 h3{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .AboutUsCol6 p{
+        padding-left: 15px;
+    }
+    #OurServices .OurServicesCol3{
+        margin-top: 25px;
+}
+.MenuCardCol6{
+    height: auto;
+    background: #141B1F;
+    margin: auto;
+    max-width: 100%!important;
+}
+.mainSlider{
+    height: 250px;
+    border: 2px solid   rgba(78, 94, 139, 0.425);
+    padding: 5px;
+
+}
+.imageWrapper{
+    height: 100px;
+    border:none;
+    padding: 5px;
+
+
+}
+.imageWrapper img{
+    height: 85px;
+    width: 100px;
+}
+.imageWrapper::-webkit-scrollbar
+{
+	height: 5px;
+	background-color: #F5F5F5;
+}
+.lenta{
+    width: 740px;
+}
+.mainSlider i.fa-chevron-right{
+    right: 5%;
+    font-size: 1.2em;
+    top: 40%;
+}
+.mainSlider i.fa-chevron-left{
+    left: 5%;
+    font-size: 1.2em;
+    top: 40%;
+}
+.mainSlider i{
+    position: absolute;
+    font-size: 2.3em;
+    top: 50%;
+    color: steelblue;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 25px;
+    height: 2px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.2s linear;
+
+}
+.fa-shopping-bag {
+    font-size: 2.2em;
+    cursor: pointer;
+    position: inherit !important;
+    margin-left: 50px;
+}
+.menubutton{
+    /* display: block !important; */
+   float: none;
+   margin-top: 10px;
+   margin-left: 0px ;
+   margin-top: 25px;
+   
+   
+}
+.menuimg{
+    width: 100%;
+    height: 150px;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+    .MenuCardCol6{
+        height: auto;
+        background: #141B1F;
+        margin: auto;
+        max-width: 100%!important;
+    }
+    .fa-shopping-bag {
+        font-size: 2.2em;
+        cursor: pointer;
+       
+        position: inherit !important;
+        margin-left: 0px !important;
+    }
+}
+
+
+
+/* ABOUT US PAGE STARTS . */
+
+
+.fa-shopping-bag{
+    font-size: 2.2em;
+    cursor: pointer;
+    position: fixed;
+    margin-left: 250px;
+    
+}
+#bagQuantity{
+    position: absolute;
+    top: 17px;
+    color: deepskyblue;
+    font-size: -0.25em;
+    font-size: 0.5em;
+    left: 13px;
+
+}
+/* ABOUT US PAGE ENDS . */
+
+/* ICONS!!!!!!! */
+.fa-youtube{
+    color: red;
+}
+.fa-instagram{
+    color: brown;
+}
+.fa-twitter{
+    color: white;
+}
+.fa-facebook{
+    color: blue;
+}
+
+
+
+/* ICONS ENDS!!!!!! */
+
+
+/*# sourceMappingURL=style.css.map */
